@@ -1,18 +1,25 @@
-$layout-color-border: #043d04 !default;
-$layout-color-background: #365f15 !default;
+$layout-color-border: #070808 !default;
+$layout-color-background: #1f2220 !default;
 $layout-color-syntax-highlighting-background: #1a1a1a !default;
 $layout-responsive-nav-cutoff: 768px !default;
+$text-color-heading: white;
+$text-color-content: rgb(240, 240, 240);
+$text-color-link: white;
 
 body {
   background-color: $layout-color-background;
 }
 
 h1, h2, h3 {
-    color: white;
+    color: $text-color-heading;
+}
+
+a {
+    color: $text-color-link;
 }
 
 #content {
-    color: rgb(194, 194, 194);
+    color: $text-color-content;
 }
 
 #nav-header {
