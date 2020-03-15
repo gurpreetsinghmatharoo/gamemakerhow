@@ -1,6 +1,8 @@
 ---
 layout: 'post'
 title: 'How to make a game in GameMaker?'
+categories: general
+permalink: 'how-to-make-a-game'
 ---
 
 # How to make a game in GameMaker?
