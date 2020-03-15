@@ -40,6 +40,10 @@ a:hover {
     color: $text-color-content;
 }
 
+pre {
+    color: $text-color-secondary;
+}
+
 #nav-header {
   border-bottom: 1px solid $layout-color-border !important;
 }
