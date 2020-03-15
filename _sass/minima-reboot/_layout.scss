@@ -19,8 +19,8 @@ a {
     color: $text-color-link;
 }
 
-.m-0, .text-dark {
-    color: $text-color-site-title;
+#site-title {
+    color: $text-color-site-title !important;
 }
 
 #content {
