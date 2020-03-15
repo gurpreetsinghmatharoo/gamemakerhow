@@ -1,11 +1,13 @@
+$color-comment: rgb(56, 122, 53);
+
 .highlight {
-  .c     { color: rgb(56, 122, 53); font-style: italic } // Comment
+  .c     { color: $color-comment; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
   .o     { font-weight: bold } // Operator
-  .cm    { color: #998; font-style: italic } // Comment.Multiline
-  .cp    { color: #999; font-weight: bold } // Comment.Preproc
-  .c1    { color: #998; font-style: italic } // Comment.Single
+  .cm    { color: $color-comment; font-style: italic } // Comment.Multiline
+  .cp    { color: $color-comment; font-weight: bold } // Comment.Preproc
+  .c1    { color: $color-comment; font-style: italic } // Comment.Single
   .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
   .gd    { color: #000; background-color: #fdd } // Generic.Deleted
   .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
