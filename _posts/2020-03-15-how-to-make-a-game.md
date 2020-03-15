@@ -5,8 +5,6 @@ categories: general
 permalink: 'how-to-make-a-game'
 ---
 
-# How to make a game in GameMaker?
-
 Here are some things you can do to start making games in GameMaker:
 - Read the manual
 - Look for beginner tutorials on YouTube
