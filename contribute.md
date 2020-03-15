@@ -3,7 +3,8 @@ layout: 'default'
 title: Contribute
 ---
 
-### Contribute with your own QnA page!
+
+**Contribute with your own QnA page!**
 
 # Rules
 
