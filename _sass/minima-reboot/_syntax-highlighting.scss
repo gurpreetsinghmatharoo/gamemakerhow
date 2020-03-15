@@ -1,4 +1,5 @@
-$color-comment: rgb(56, 122, 53);
+$color-comment: rgb(59, 145, 55);
+$color-number: rgb(0, 170, 170);
 
 .highlight {
   .c     { color: $color-comment; font-style: italic } // Comment
@@ -40,10 +41,10 @@ $color-comment: rgb(56, 122, 53);
   .nv    { color: #008080 } // Name.Variable
   .ow    { font-weight: bold } // Operator.Word
   .w     { color: #bbb } // Text.Whitespace
-  .mf    { color: #099 } // Literal.Number.Float
-  .mh    { color: #099 } // Literal.Number.Hex
-  .mi    { color: #099 } // Literal.Number.Integer
-  .mo    { color: #099 } // Literal.Number.Oct
+  .mf    { color: $color-number } // Literal.Number.Float
+  .mh    { color: $color-number } // Literal.Number.Hex
+  .mi    { color: $color-number } // Literal.Number.Integer
+  .mo    { color: $color-number } // Literal.Number.Oct
   .sb    { color: #d14 } // Literal.String.Backtick
   .sc    { color: #d14 } // Literal.String.Char
   .sd    { color: #d14 } // Literal.String.Doc
