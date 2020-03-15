@@ -14,4 +14,10 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+
+  {% if post.contributor %}
+    <div class="text-justify" id="footnote">
+        Contributor: {{ post.contributor }}
+    </div>
+  {% endif %}
 </article>

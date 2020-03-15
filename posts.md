@@ -1,6 +1,6 @@
 ---
 layout: allposts
-title: Posts
+title: All Questions
 description: All questions
 permalink: /all/
 ---
