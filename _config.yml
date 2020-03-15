@@ -22,7 +22,7 @@ header_pages:
 footer_icons:
 - username: Gurpreet S. Matharoo
   url: https://twitter.com/itsmatharoo
-  icon: icon-matharoo.png
+  icon: icon-github.svg
 
 paginate: 20
 
