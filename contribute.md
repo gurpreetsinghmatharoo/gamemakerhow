@@ -14,6 +14,7 @@ To make sure that our questions stay consistent, I've set up some rules:
 - Answer must not exceed 100 words, or 150 at most
 - Answer may contain a code example
 - Answer may contain a link to a tutorial
+- Include links to the manual if applicable (for example: when mentioning a specific function, link its manual entry)
 
 
 # Contact
