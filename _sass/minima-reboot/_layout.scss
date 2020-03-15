@@ -5,6 +5,7 @@ $layout-responsive-nav-cutoff: 768px !default;
 $text-color-heading: white;
 $text-color-content: rgb(240, 240, 240);
 $text-color-link: white;
+$text-color-site-title: white;
 
 body {
   background-color: $layout-color-background;
@@ -16,6 +17,10 @@ h1, h2, h3 {
 
 a {
     color: $text-color-link;
+}
+
+.m-0 .text-dark {
+    color: $text-color-site-title;
 }
 
 #content {
