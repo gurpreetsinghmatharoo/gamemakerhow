@@ -10,7 +10,7 @@ $text-color-site-title: white;
 
 body {
   background-color: $layout-color-background;
-  color: $text-color-secondary;
+  color: $text-color-secondary !important;
 }
 
 h1, h2, h3 {
@@ -26,7 +26,7 @@ a {
 }
 
 .text-secondary {
-    color: $text-color-secondary;
+    color: $text-color-secondary !important;
 }
 
 #content {
