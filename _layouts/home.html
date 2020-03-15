@@ -15,11 +15,8 @@ layout: default
   {% endif %}
 
   <ul class="list-unstyled m-0">
-    {% assign date_format = site.minima_reboot.date_format | default: "%b %-d, %Y" %}
     {% for post in posts %}
       <li class="py-2">
-        <span class="text-secondary">{{ post.date | date: date_format }}</span>
-
         <h1 class="mt-1 mb-3 h3">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h1>
