@@ -4,7 +4,7 @@ $layout-color-syntax-highlighting-background: #1a1a1a !default;
 $layout-responsive-nav-cutoff: 768px !default;
 $text-color-heading: rgb(159, 233, 39);
 $text-color-content: rgb(240, 240, 240);
-$text-color-link: white;
+$text-color-link: $text-color-heading;
 $text-color-site-title: white;
 
 body {
