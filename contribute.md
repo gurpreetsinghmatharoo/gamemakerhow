@@ -1,7 +1,9 @@
 ---
 layout: 'default'
-title: 'Contribute with your own QnA pairs!"
+title: Contribute
 ---
+
+### Contribute with your own QnA page!
 
 # Rules
 
