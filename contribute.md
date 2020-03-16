@@ -4,7 +4,11 @@ title: Contribute
 ---
 
 
-**Contribute with your own QnA page!**
+**Contribute with your own Q/A!**
+
+# What you can submit
+
+You can submit your own questions. Answers are not required, but if you do know the solution, please do include it.
 
 # Rules
 
