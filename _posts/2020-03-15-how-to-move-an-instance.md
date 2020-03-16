@@ -1,9 +1,9 @@
 ---
-layout: 'post'
-title: 'How to move an instance?'
+layout: post
+title: How to move an instance?
 categories: objects
-permalink: 'how-to-move-an-instance'
-contributor: 'matharoo'
+permalink: /how-to-move-an-instance/
+contributor: matharoo
 ---
 
 To move an instance, you can modify its `x` and `y` properties. `x` is the instance's horizontal position, and `y` is the vertical position.
