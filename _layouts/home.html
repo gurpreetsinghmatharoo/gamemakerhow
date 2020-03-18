@@ -24,6 +24,10 @@ layout: default
         <div class="text-justify">
           {{ post.excerpt }}
         </div>
+
+        <div class="text-justify italic">
+          <a href="{{ post.url | relative_url }}">Read more...</a>
+        </div>
       </li>
     {% endfor %}
   </ul>

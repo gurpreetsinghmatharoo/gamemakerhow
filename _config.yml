@@ -14,14 +14,25 @@ minima_reboot:
   date_format: "%b %-d, %Y"
   date_format_short: "%b %-d"
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      contributor: matharoo
+
+
 header_pages:
 - posts.md
+- categories.md
 - contribute.md
 
 footer_icons:
 - username: Gurpreet S. Matharoo
   url: https://twitter.com/itsmatharoo
-  icon: icon-github.svg
+  icon: Twitter-Logo.svg
 
 paginate: 20
 

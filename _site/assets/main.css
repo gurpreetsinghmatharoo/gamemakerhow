@@ -1,6 +1,12 @@
 body { background-color: #1f2220; color: #c8c8c8 !important; }
 
-h1, h2, h3 { color: #adf041; }
+h1 { color: white; }
+
+h2, h3 { color: #adf041; }
+
+.italic { font-style: italic; }
+
+.py-2 { padding-bottom: 1.5rem !important; }
 
 a { color: #adf041; }
 

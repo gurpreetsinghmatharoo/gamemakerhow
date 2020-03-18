@@ -2,6 +2,7 @@ $layout-color-border: #070808 !default;
 $layout-color-background: #1f2220 !default;
 $layout-color-syntax-highlighting-background: #1a1a1a !default;
 $layout-responsive-nav-cutoff: 768px !default;
+$text-color-heading-main: white;
 $text-color-heading: rgb(173, 240, 65);
 $text-color-content: rgb(240, 240, 240);
 $text-color-secondary: rgb(200, 200, 200);
@@ -17,8 +18,20 @@ body {
   color: $text-color-secondary !important;
 }
 
-h1, h2, h3 {
+h1 {
+  color: $text-color-heading-main;
+}
+
+h2, h3 {
     color: $text-color-heading;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.py-2 {
+  padding-bottom: 1.5rem !important;
 }
 
 a {
