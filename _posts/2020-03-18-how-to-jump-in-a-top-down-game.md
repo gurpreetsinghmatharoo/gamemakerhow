@@ -4,8 +4,6 @@ categories: [objects, top-down]
 permalink: /jump-in-top-down-game/
 ---
 
-## Third Axis
-
 Jumping in a top-down game is tricker. You're already using up the X and Y axes for 4-directional movement, so for jumping, you now need a third axis: Z.
 
 The same jumping mechanics that you apply to the Y axis [in a platformer game]({{site.baseurl}}{% link _posts/2020-03-17-how-to-jump-in-a-platformer.md %}), can be applied to the Z axis, in a top-down game.

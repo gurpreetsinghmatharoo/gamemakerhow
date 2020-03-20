@@ -6,7 +6,7 @@ h2, h3 { color: #adf041; }
 
 .italic { font-style: italic; }
 
-.py-2 { padding-bottom: 1.5rem !important; }
+.py-2 { margin-bottom: 1.5rem !important; background-color: #383f37; padding: 32px !important; padding-top: 24px !important; border-radius: 10px; }
 
 a { color: #adf041; }
 
@@ -14,7 +14,22 @@ a:hover { color: white !important; }
 
 .text-dark { color: white !important; }
 
+.text-dark:hover { color: white !important; }
+
 .text-secondary { color: #c8c8c8 !important; }
+
+.text-bold { font-weight: bold; }
+
+.text-header-big { font-size: 1.1rem; margin-right: 10px; }
+
+.header-inline-icon { margin-right: 4px; height: 24px; }
+
+.search-box { background-color: #2e312f; border-radius: 8px; border-width: 1px; border-style: none; border-color: #adadad; color: #f0f0f0; padding: 8px; }
+
+#results-container { margin-top: 32px; list-style-type: none; border-radius: 10px; background-color: #383f37; padding: 32px; margin-bottom: 32px; }
+#results-container li { margin-bottom: 10px; }
+#results-container li a { font-size: 2rem; }
+#results-container li p { font-size: 1rem; font-style: italic; }
 
 #content { color: #f0f0f0; }
 

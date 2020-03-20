@@ -1,6 +1,13 @@
 $layout-color-border: #070808 !default;
 $layout-color-background: #1f2220 !default;
+$layout-color-background-inner: #2e312f;
+$layout-color-background-section: #383f37;
 $layout-color-syntax-highlighting-background: #1a1a1a !default;
+
+$div-box-radius: 10px;
+$div-box-padding: 32px;
+$div-box-padding-top: 24px;
+
 $layout-responsive-nav-cutoff: 768px !default;
 $text-color-heading-main: white;
 $text-color-heading: rgb(173, 240, 65);
@@ -31,7 +38,12 @@ h2, h3 {
 }
 
 .py-2 {
-  padding-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+
+  background-color: $layout-color-background-section;
+  padding: $div-box-padding !important;
+  padding-top: $div-box-padding-top !important;
+  border-radius: $div-box-radius;
 }
 
 a {
@@ -45,9 +57,58 @@ a:hover {
 .text-dark {
     color: $text-color-site-title !important;
 }
+.text-dark:hover {
+  color: $text-color-site-title !important;
+}
 
 .text-secondary {
     color: $text-color-secondary !important;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-header-big {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.header-inline-icon {
+  margin-right: 4px;
+  height: 24px;
+}
+
+.search-box {
+  background-color: $layout-color-background-inner;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: none;
+  border-color: $text-color-tertiary;
+  color: $text-color-content;
+  padding: 8px;
+}
+
+#results-container {
+  margin-top: 32px;
+  list-style-type: none;
+  border-radius: $div-box-radius;
+  background-color: $layout-color-background-section;
+  padding: $div-box-padding;
+  margin-bottom: 32px;
+
+  li {
+    margin-bottom: 10px;
+
+    a {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
 }
 
 #content {
