@@ -2,6 +2,10 @@ $layout-color-border: #070808 !default;
 $layout-color-background: #1f2220 !default;
 $layout-color-background-inner: #2e312f;
 $layout-color-background-section: #383f37;
+$layout-color-background-section-hover: #4b5743;
+
+$layout-color-background-shadow: #131616;
+
 $layout-color-syntax-highlighting-background: #1a1a1a !default;
 
 $div-box-radius: 10px;
@@ -30,7 +34,7 @@ h1 {
 }
 
 h2, h3 {
-    color: $text-color-heading;
+    color: $text-color-heading !important;
 }
 
 .italic {
@@ -38,12 +42,21 @@ h2, h3 {
 }
 
 .py-2 {
+  display: block;
   margin-bottom: 1.5rem !important;
 
   background-color: $layout-color-background-section;
   padding: $div-box-padding !important;
   padding-top: $div-box-padding-top !important;
   border-radius: $div-box-radius;
+
+  transition: background-color 0.3s;
+
+  box-shadow: 0px 4px 10px -6px $layout-color-background-shadow;
+
+  &:hover {
+    background-color: $layout-color-background-section-hover;
+  }
 }
 
 a {
@@ -51,7 +64,8 @@ a {
 }
 
 a:hover {
-    color: $text-color-link-hover !important;
+    color: $text-color-link-hover;
+    text-decoration: none !important;
 }
 
 .text-dark {
@@ -69,6 +83,10 @@ a:hover {
   font-weight: bold;
 }
 
+.text-justify {
+  color: $text-color-content;
+}
+
 .text-header-big {
   font-size: 1.1rem;
   margin-right: 10px;
@@ -76,7 +94,7 @@ a:hover {
 
 .header-inline-icon {
   margin-right: 4px;
-  height: 24px;
+  height: 20px;
 }
 
 .search-box {

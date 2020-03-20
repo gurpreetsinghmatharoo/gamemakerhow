@@ -26,7 +26,6 @@ defaults:
 
 header_pages:
 - search.md
-- posts.md
 - categories.md
 - contribute.md
 

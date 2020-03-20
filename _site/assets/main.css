@@ -2,15 +2,16 @@ body { background-color: #1f2220; color: #c8c8c8 !important; }
 
 h1 { color: white; }
 
-h2, h3 { color: #adf041; }
+h2, h3 { color: #adf041 !important; }
 
 .italic { font-style: italic; }
 
-.py-2 { margin-bottom: 1.5rem !important; background-color: #383f37; padding: 32px !important; padding-top: 24px !important; border-radius: 10px; }
+.py-2 { display: block; margin-bottom: 1.5rem !important; background-color: #383f37; padding: 32px !important; padding-top: 24px !important; border-radius: 10px; transition: background-color 0.3s; box-shadow: 0px 4px 10px -6px #131616; }
+.py-2:hover { background-color: #4b5743; }
 
 a { color: #adf041; }
 
-a:hover { color: white !important; }
+a:hover { color: white; text-decoration: none !important; }
 
 .text-dark { color: white !important; }
 
@@ -20,9 +21,11 @@ a:hover { color: white !important; }
 
 .text-bold { font-weight: bold; }
 
+.text-justify { color: #f0f0f0; }
+
 .text-header-big { font-size: 1.1rem; margin-right: 10px; }
 
-.header-inline-icon { margin-right: 4px; height: 24px; }
+.header-inline-icon { margin-right: 4px; height: 20px; }
 
 .search-box { background-color: #2e312f; border-radius: 8px; border-width: 1px; border-style: none; border-color: #adadad; color: #f0f0f0; padding: 8px; }
 
