@@ -2,6 +2,7 @@
 title: How to move an instance?
 categories: objects
 permalink: /how-to-move-an-instance/
+tags: [how, to, move, an, instance, position, change]
 ---
 
 To move an instance, you can modify its `x` and `y` properties. `x` is the instance's horizontal position, and `y` is the vertical position.

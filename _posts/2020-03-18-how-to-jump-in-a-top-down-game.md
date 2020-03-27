@@ -2,6 +2,7 @@
 title: How to jump in a top-down game?
 categories: [objects, top-down]
 permalink: /jump-in-top-down-game/
+tags: [jump, top, down, game, view, z, axis]
 ---
 
 Jumping in a top-down game is tricker. You're already using up the X and Y axes for 4-directional movement, so for jumping, you now need a third axis: Z.

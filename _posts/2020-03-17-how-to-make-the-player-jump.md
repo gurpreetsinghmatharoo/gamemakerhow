@@ -2,6 +2,7 @@
 title: How to make the player jump?
 categories: objects
 permalink: /how-to-jump/
+tags: [jump, player, move, up]
 ---
 
 Look at the following questions:

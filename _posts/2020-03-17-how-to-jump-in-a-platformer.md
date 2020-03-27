@@ -2,6 +2,7 @@
 title: How to jump in a platformer?
 categories: [objects, platformer]
 permalink: /jump-in-platformer/
+tags: [jump, in, a, platformer, air]
 ---
 
 For jumping in a platformer, you need gravity. And for gravity, you need a vertical speed variable.

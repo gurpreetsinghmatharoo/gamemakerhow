@@ -5,7 +5,7 @@
       "title"    : "How to jump in a top-down game?",
       "url"      : "/jump-in-top-down-game/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "jump, top, down, game, view, z, axis",
       "date"     : "2020-03-18 00:00:00 +0530",
       "excerpt"  : "Jumping in a top-down game is tricker. You’re already using up the X and Y axes for 4-directional movement, so for jumping, you now need a third axis: Z."
 
@@ -16,7 +16,7 @@
       "title"    : "How to flip an instance/sprite?",
       "url"      : "/how-to-flip-an-instance-sprite/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "flip, face, other, way, around, turn, direction",
       "date"     : "2020-03-18 00:00:00 +0530",
       "excerpt"  : "Whether you’re making a platformer or a top-down game, you want your instances to flip, depending on where they’re facing on the X-axis: that is, either left or right."
 
@@ -27,7 +27,7 @@
       "title"    : "How to make the player jump?",
       "url"      : "/how-to-jump/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "jump, player, move, up",
       "date"     : "2020-03-17 00:00:00 +0530",
       "excerpt"  : "Look at the following questions:"
 
@@ -38,7 +38,7 @@
       "title"    : "How to jump in a platformer?",
       "url"      : "/jump-in-platformer/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "jump, in, a, platformer, air",
       "date"     : "2020-03-17 00:00:00 +0530",
       "excerpt"  : "For jumping in a platformer, you need gravity. And for gravity, you need a vertical speed variable."
 
@@ -49,7 +49,7 @@
       "title"    : "How to move an instance?",
       "url"      : "/how-to-move-an-instance/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "how, to, move, an, instance, position, change",
       "date"     : "2020-03-15 00:00:00 +0530",
       "excerpt"  : "To move an instance, you can modify its x and y properties. x is the instance’s horizontal position, and y is the vertical position."
 
@@ -60,7 +60,7 @@
       "title"    : "How to make a game in GameMaker?",
       "url"      : "/how-to-make-a-game/",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "how, to, make, a, game, in, GameMaker, code, develop, build",
       "date"     : "2020-03-15 00:00:00 +0530",
       "excerpt"  : "Here are some things you can do to start making games in GameMaker:  Read the manual  Look for beginner tutorials on YouTube  Play around with the program  Buy a beginner course on Udemy"
 
