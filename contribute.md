@@ -11,6 +11,7 @@ To make sure that our questions stay consistent, we've set up some rules:
 
 - Question must be one-liner
 - Answer must not exceed 100 words, or 150 at most
+- Answer must have a short summary as its first paragraph (for the excerpt)
 - Answer may contain a code example
 - Answer may contain a link to a tutorial
 - Include links to the manual if applicable (for example: when mentioning a specific function, link its manual entry)

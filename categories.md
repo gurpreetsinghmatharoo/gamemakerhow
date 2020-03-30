@@ -1,4 +1,4 @@
 ---
 layout: categories
-title: All Questions
+title: Categories
 ---

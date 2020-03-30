@@ -4,20 +4,36 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="pt-4 pb-3">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="question-title">
+      <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    </div>
   </header>
 
   <div class="text-justify" itemprop="articleBody" id="content">
     {{ content }}
+
+    {% if page.contributor and page.contributor != 'matharoo' %}
+      <div class="text-justify" class="footnotes">
+          Contributor: {{ page.contributor | escape }}
+      </div>
+    {% endif %}
+
+    {% if page.similar %}
+    <div class="similar-list">
+      <div class="similar-title">Similar:</div>
+
+      {% for similar_page in page.similar %}
+        <div class="similar-item">
+          <a href={{site.baseurl}}{{similar_page.permalink}}>
+            {{similar_page.title}}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
-  {% endif %}
-
-  {% if post.contributor %}
-    <div class="text-justify" id="footnote">
-        Contributor: {{ post.contributor }}
-    </div>
   {% endif %}
 </article>

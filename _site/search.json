@@ -2,6 +2,61 @@
   
     {
 
+      "title"    : "How to do sprite animations?",
+      "url"      : "/how-to-do-sprite-animations/",
+      "category" : "",
+      "tags"     : "sprite, animation, animating, animations, image, speed, frame, state",
+      "date"     : "2020-03-30 00:00:00 +0530",
+      "excerpt"  : "Simple sprite animation in an object can be done by changing the sprite_index when appropriate."
+
+    } ,
+  
+    {
+
+      "title"    : "How to do smooth animations?",
+      "url"      : "/how-to-do-smooth-animations/",
+      "category" : "",
+      "tags"     : "animation, animating, animations, image, speed, frame, state, lerp, smooth, interpolation",
+      "date"     : "2020-03-30 00:00:00 +0530",
+      "excerpt"  : "Smooth animations can be done using the lerp function."
+
+    } ,
+  
+    {
+
+      "title"    : "How to animate an object?",
+      "url"      : "/how-to-animate-an-object/",
+      "category" : "",
+      "tags"     : "object, animate, animation, move, target, control, state",
+      "date"     : "2020-03-30 00:00:00 +0530",
+      "excerpt"  : ""
+
+    } ,
+  
+    {
+
+      "title"    : "How to make an inventory?",
+      "url"      : "/how-to-make-an-inventory/",
+      "category" : "",
+      "tags"     : "inventory, bag, items, loot, store, array, list, data, structure, ds, lists",
+      "date"     : "2020-03-27 00:00:00 +0530",
+      "excerpt"  : "A simple inventory can be made using a DS List."
+
+    } ,
+  
+    {
+
+      "title"    : "How to draw an inventory?",
+      "url"      : "/how-to-draw-an-inventory/",
+      "category" : "",
+      "tags"     : "inventory, bag, items, loot, store, array, list, data, structure",
+      "date"     : "2020-03-27 00:00:00 +0530",
+      "excerpt"  : "Assuming your inventory is a DS List, and your items are in an Enum, you can store the sprite of each item in an array:"
+
+    } ,
+  
+    {
+
       "title"    : "How to jump in a top-down game?",
       "url"      : "/jump-in-top-down-game/",
       "category" : "",
@@ -29,7 +84,7 @@
       "category" : "",
       "tags"     : "jump, player, move, up",
       "date"     : "2020-03-17 00:00:00 +0530",
-      "excerpt"  : "Look at the following questions:"
+      "excerpt"  : ""
 
     } ,
   

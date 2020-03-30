@@ -1,8 +1,29 @@
 $layout-color-border: #070808 !default;
+$layout-color-background: #222222 !default;
+$layout-color-background-inner: #282828;
+$layout-color-background-section: #333333;
+$layout-color-background-section-hover: #38463f;
+$layout-color-background-similar: #2b343b;
+
+/*
+ORIGINAL COLOR THEME (GREEN)
+$layout-color-border: #070808 !default;
 $layout-color-background: #1f2220 !default;
 $layout-color-background-inner: #2e312f;
 $layout-color-background-section: #383f37;
 $layout-color-background-section-hover: #4b5743;
+$layout-color-background-similar: #252f31;
+
+$text-color-heading: rgb(173, 240, 65);
+
+V2 COLOR THEME (BLUE)
+$layout-color-border: #070808 !default;
+$layout-color-background: #32363a !default;
+$layout-color-background-inner: #40494e;
+$layout-color-background-section: #3f4f53;
+$layout-color-background-section-hover: #446363;
+$layout-color-background-similar: #334852;
+*/
 
 $layout-color-background-shadow: #131616;
 
@@ -12,10 +33,13 @@ $div-box-radius: 10px;
 $div-box-padding: 32px;
 $div-box-padding-top: 24px;
 
+$div-link-padding: 8px;
+$div-link-radius: 8px;
+
 $layout-responsive-nav-cutoff: 768px !default;
 $text-color-heading-main: white;
-$text-color-heading: rgb(173, 240, 65);
-$text-color-content: rgb(240, 240, 240);
+$text-color-heading: #16cf7f;
+$text-color-content: rgb(255, 255, 255);
 $text-color-secondary: rgb(200, 200, 200);
 $text-color-tertiary: rgb(173, 173, 173);
 
@@ -25,20 +49,37 @@ $text-color-link-hover: white;
 $text-color-site-title: white;
 
 body {
+  
+
   background-color: $layout-color-background;
   color: $text-color-secondary !important;
 }
 
-h1 {
-  color: $text-color-heading-main;
+footer {
+  margin-top: 2rem;
 }
 
-h2, h3 {
-    color: $text-color-heading !important;
+h1 {
+  color: $text-color-heading-main;
+  font-weight: normal;
+}
+
+h2, h3, h4 {
+  color: $text-color-heading !important;
+  font-weight: normal !important;
+}
+
+hr {
+  margin-top: 4rem;
+  border: 1px solid $text-color-tertiary;
 }
 
 .italic {
   font-style: italic;
+}
+
+.category-head {
+  color: white !important;
 }
 
 .py-2 {
@@ -129,10 +170,6 @@ a:hover {
   }
 }
 
-#content {
-    color: $text-color-content;
-}
-
 pre {
     color: $text-color-tertiary;
 }
@@ -168,6 +205,9 @@ pre {
 }
 
 #content {
+  color: $text-color-content;
+  margin-top: 0.5rem;
+  
   h1, h2, h3, h4 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -180,6 +220,37 @@ pre {
   }
   .footnotes {
     text-align: left;
+  }
+  h1 a {
+    font-size: 1.5rem;
+    padding: $div-link-padding;
+    background-color: $layout-color-background-section;
+    border-radius: $div-link-radius;
+    transition: background-color 0.3s;
+    color: $text-color-link;
+
+    &:hover {
+      background-color: $layout-color-background-section-hover;
+    }
+  }
+}
+
+.similar-list {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: $layout-color-background-similar;
+  list-style-type: none;
+  border-radius: $div-box-radius;
+
+  .similar-title {
+    color: $text-color-content;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .similar-item {
+    font-size: 1.2rem;
+    margin-top: 1rem;
   }
 }
 
@@ -201,3 +272,9 @@ pre {
   margin-bottom: 1rem;
   white-space: pre-wrap;
 }
+
+/*.question-title {
+  padding: 10px 20px;
+  background-color: $layout-color-background-section;
+  border-radius: $div-box-radius;
+}*/

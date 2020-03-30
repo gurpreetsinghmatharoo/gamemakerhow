@@ -1,8 +1,11 @@
 ---
 title: How to jump in a top-down game?
-categories: [objects, top-down]
+categories: [Objects, Top-Down]
 permalink: /jump-in-top-down-game/
 tags: [jump, top, down, game, view, z, axis]
+similar: 
+    -   permalink: /jump-in-platformer/
+        title: "How to jump in a platformer?"
 ---
 
 Jumping in a top-down game is tricker. You're already using up the X and Y axes for 4-directional movement, so for jumping, you now need a third axis: Z.
@@ -16,7 +19,7 @@ Then, when drawing that instance, you'd have to add `z` to the Y-axis:
 draw_sprite_ext(sprite_index, image_index, x, y+z, ... );
 ```
 
-## Ground Collisions
+### Ground Collisions
 
 For checking whether you're on the ground, you can simply check if `z` is greater than 0.
 

@@ -1,6 +1,6 @@
 ---
 title: How to move an instance?
-categories: objects
+categories: Objects
 permalink: /how-to-move-an-instance/
 tags: [how, to, move, an, instance, position, change]
 ---

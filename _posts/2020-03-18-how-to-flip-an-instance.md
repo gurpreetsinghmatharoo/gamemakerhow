@@ -1,8 +1,12 @@
 ---
 title: How to flip an instance/sprite?
-categories: [objects, sprites]
+categories: [Objects, Sprites]
 permalink: /how-to-flip-an-instance-sprite/
 tags: [flip, face, other, way, around, turn, direction]
+
+similar:
+    -   permalink: /how-to-do-sprite-animations/
+        title: "How to do sprite animations?"
 ---
 
 Whether you're making a platformer or a top-down game, you want your instances to flip, depending on where they're facing on the X-axis: that is, either left or right.

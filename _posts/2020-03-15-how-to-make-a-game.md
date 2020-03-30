@@ -1,6 +1,6 @@
 ---
 title: How to make a game in GameMaker?
-categories: general
+categories: General
 permalink: /how-to-make-a-game/
 tags: [how, to, make, a, game, in, GameMaker, code, develop, build]
 ---
