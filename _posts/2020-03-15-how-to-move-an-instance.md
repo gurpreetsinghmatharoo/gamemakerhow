@@ -20,6 +20,15 @@ You can also use the built-in variables `hspeed` and `vspeed` to set the horizon
 hspeed = -4;
 vspeed = 4;
 ```
+This should automatically make them move, once you set the speed value(s).
 
 However, it is recommended to create your own variables for movement, usually called `hsp` and `vsp`.
 You can add them to the `x` and `y` variables respectively, in the Step event.
+
+```js
+hsp = -4;
+vsp = 4;
+
+x += hsp;
+y += vsp;
+```

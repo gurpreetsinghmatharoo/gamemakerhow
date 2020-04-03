@@ -1,4 +1,4 @@
-$layout-color-border: #070808 !default;
+$layout-color-border: #1a1a1a !default;
 $layout-color-background: #222222 !default;
 $layout-color-background-inner: #282828;
 $layout-color-background-section: #333333;
@@ -46,13 +46,19 @@ $text-color-tertiary: rgb(173, 173, 173);
 $text-color-link: $text-color-heading;
 $text-color-link-hover: white;
 
-$text-color-site-title: white;
+$text-color-site-title: $text-color-heading;
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  
-
   background-color: $layout-color-background;
   color: $text-color-secondary !important;
+}
+
+#nav-header {
+  background-color: $layout-color-background-section;
 }
 
 footer {
@@ -98,19 +104,25 @@ hr {
   &:hover {
     background-color: $layout-color-background-section-hover;
   }
+
+  a {
+    color: $text-color-content !important;
+  }
 }
 
-a {
-    color: $text-color-link;
-}
+a, a.text-dark {
+  color: $text-color-link;
 
-a:hover {
-    color: $text-color-link-hover;
+  transition: 0.2s color;
+
+  &:hover {
+    color: $text-color-link-hover !important;
     text-decoration: none !important;
+  }
 }
 
 .text-dark {
-    color: $text-color-site-title !important;
+  color: $text-color-site-title !important;
 }
 .text-dark:hover {
   color: $text-color-site-title !important;
@@ -273,8 +285,6 @@ pre {
   white-space: pre-wrap;
 }
 
-/*.question-title {
-  padding: 10px 20px;
-  background-color: $layout-color-background-section;
+.highlight pre {
   border-radius: $div-box-radius;
-}*/
+}

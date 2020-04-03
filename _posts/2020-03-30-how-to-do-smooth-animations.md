@@ -32,7 +32,3 @@ var _t = 0.1;
 x = lerp(x, targetX, _t);
 y = lerp(y, targetY, _t);
 ```
-
-Here's how this would look (the green crosshair is the target position)
-
-![Example](/assets/GIFs/gmhow_lerp.gif)

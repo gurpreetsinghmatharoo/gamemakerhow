@@ -5,9 +5,9 @@ title: Contribute
 
 You can submit your own questions. Answers are not required, but if you do know the solution, please do include it.
 
-## Rules
+## Guidelines
 
-To make sure that our questions stay consistent, we've set up some rules:
+To make sure that our questions stay consistent, we've set up some guidelines:
 
 - Question must be one-liner
 - Answer must not exceed 100 words, or 150 at most
@@ -16,12 +16,8 @@ To make sure that our questions stay consistent, we've set up some rules:
 - Answer may contain a link to a tutorial
 - Include links to the manual if applicable (for example: when mentioning a specific function, link its manual entry)
 
-
 ## Contact
 
-You can send me your question and answer pair (along with any example code) through this contact form.
-I will email you back if I need more details and to confirm the addition of your contribution.
-
-*Imagine Contact Form Here*
+DM me your submissions on Twitter: [@itsmatharoo](https://twitter.com/itsmatharoo)
 
 Thank you very much!

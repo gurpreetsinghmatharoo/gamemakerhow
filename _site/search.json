@@ -2,6 +2,39 @@
   
     {
 
+      "title"    : "How to handle object collisions?",
+      "url"      : "/how-to-handle-object-collisions/",
+      "category" : "",
+      "tags"     : "how, to, handle, make, do, collisions, collide, stop, wall, objects, instances",
+      "date"     : "2020-04-03 00:00:00 +0530",
+      "excerpt"  : "To enable collisions in a moving object, you can do this:  Set the movement speed (usually hsp and vsp)  Check if there are collisions where you’re moving (separately on x and y)  If a collision is found on either dimension, you set that dimension’s speed to 0          Before setting it to 0, you run a while loop to close any gap between the two colliding instances      "
+
+    } ,
+  
+    {
+
+      "title"    : "How to handle collisions?",
+      "url"      : "/how-to-handle-collisions/",
+      "category" : "",
+      "tags"     : "how, to, handle, make, do, enable, collisions, collide, stop, wall",
+      "date"     : "2020-04-03 00:00:00 +0530",
+      "excerpt"  : ""
+
+    } ,
+  
+    {
+
+      "title"    : "How to code a timer?",
+      "url"      : "/how-to-code-a-timer/",
+      "category" : "",
+      "tags"     : "make, code, timer, interval, run, on, a, an",
+      "date"     : "2020-04-03 00:00:00 +0530",
+      "excerpt"  : "You can use Alarms to run code after some time or on a loop."
+
+    } ,
+  
+    {
+
       "title"    : "How to do sprite animations?",
       "url"      : "/how-to-do-sprite-animations/",
       "category" : "",
