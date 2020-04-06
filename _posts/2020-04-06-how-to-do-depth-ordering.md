@@ -19,7 +19,7 @@ An instance with a depth of 500 would be **below** an instance with a depth of -
 
 ![Example](/assets/gmhow-depth.png)
 
-So when you set `depth` to `-y`, you're making sure that instances that are ordered based on their vertical position.
+So when you set `depth` to `-y`, you're making sure that instances are ordered based on their vertical position.
 
 It is recommended to use `bbox_bottom` instead of `y`, so that the "foot" of each instance becomes its center point for depth ordering.
 
