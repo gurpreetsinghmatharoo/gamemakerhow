@@ -12,7 +12,7 @@ To make sure that objects are drawn in the correct order, when making a top view
 depth = -y;
 ```
 
-[`depth`](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/instances/instance_variables/depth.html) controls the draw order of the instances, so which instance appears in the front and which appears in the back is dependent on that draw order.
+[depth](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/instances/instance_variables/depth.html) controls the draw order of the instances, so which instance appears in the front and which appears in the back is dependent on that draw order.
 
 Instances with higher depth values are drawn first, and so they're below instances with lower depth values.
 An instance with a depth of 500 would be **below** an instance with a depth of -200.
