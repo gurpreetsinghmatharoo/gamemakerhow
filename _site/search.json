@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "How to do depth-ordering?",
+      "url"      : "/how-to-do-depth-ordering/",
+      "category" : "",
+      "tags"     : "depth, order, ordering, z, test, top, down, front, back",
+      "date"     : "2020-04-06 00:00:00 +0530",
+      "excerpt"  : "To make sure that objects are drawn in the correct order, when making a top view game, you can use the depth variable."
+
+    } ,
+  
+    {
+
       "title"    : "How to handle object collisions?",
       "url"      : "/how-to-handle-object-collisions/",
       "category" : "",
@@ -18,7 +29,7 @@
       "category" : "",
       "tags"     : "how, to, handle, make, do, enable, collisions, collide, stop, wall",
       "date"     : "2020-04-03 00:00:00 +0530",
-      "excerpt"  : ""
+      "excerpt"  : "Take a look at these pages:"
 
     } ,
   
@@ -62,7 +73,7 @@
       "category" : "",
       "tags"     : "object, animate, animation, move, target, control, state",
       "date"     : "2020-03-30 00:00:00 +0530",
-      "excerpt"  : ""
+      "excerpt"  : "Take a look at these pages:"
 
     } ,
   
@@ -117,7 +128,7 @@
       "category" : "",
       "tags"     : "jump, player, move, up",
       "date"     : "2020-03-17 00:00:00 +0530",
-      "excerpt"  : ""
+      "excerpt"  : "Take a look at these pages:"
 
     } ,
   

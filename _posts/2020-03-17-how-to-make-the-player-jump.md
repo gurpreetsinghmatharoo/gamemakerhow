@@ -10,3 +10,5 @@ similar:
     -   permalink: /jump-in-top-down-game/
         title: How to jump in a top-down game?
 ---
+
+Take a look at these pages:

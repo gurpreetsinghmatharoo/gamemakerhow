@@ -11,3 +11,4 @@ similar:
         title: "How to do smooth animations?"
 ---
 
+Take a look at these pages:

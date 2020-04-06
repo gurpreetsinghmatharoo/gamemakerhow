@@ -8,3 +8,5 @@ similar:
     -   permalink: /how-to-handle-object-collisions/
         title: How to handle object collisions?
 ---
+
+Take a look at these pages:
