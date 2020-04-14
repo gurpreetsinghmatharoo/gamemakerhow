@@ -2,6 +2,50 @@
   
     {
 
+      "title"    : "How to clear the asset cache?",
+      "url"      : "/how-to-clear-the-asset-cache/",
+      "category" : "",
+      "tags"     : "clear, asset, compiler, cache, sprite, error, bug, glitch, html5, web",
+      "date"     : "2020-04-14 00:00:00 +0530",
+      "excerpt"  : "You might be getting weird graphical glitches, especially on the HTML5 platform. Clearing the asset compiler cache may sometimes fix these issues."
+
+    } ,
+  
+    {
+
+      "title"    : "How to use scripts? (2.2.5)",
+      "url"      : "/how-to-use-scripts/",
+      "category" : "",
+      "tags"     : "scripts, functions, methods, call",
+      "date"     : "2020-04-08 00:00:00 +0530",
+      "excerpt"  : "Scripts allow you to create custom functions. You can call your script function, pass in arguments, run some code in it, and expect a result; just like a regular built-in function."
+
+    } ,
+  
+    {
+
+      "title"    : "How to change the color of a sprite?",
+      "url"      : "/how-to-change-the-color-of-a-sprite/",
+      "category" : "",
+      "tags"     : "change, color, sprite, object, instance, blend, multiply, colorize, set, modify, shaders, tint",
+      "date"     : "2020-04-08 00:00:00 +0530",
+      "excerpt"  : "The color of an instance can be changed with image_blend."
+
+    } ,
+  
+    {
+
+      "title"    : "How to handle tile collisions?",
+      "url"      : "/how-to-handle-tile-collisions/",
+      "category" : "",
+      "tags"     : "tile, tilemap, collisions, wall",
+      "date"     : "2020-04-07 00:00:00 +0530",
+      "excerpt"  : "Tile collisions only allow the first tile in a tileset to be the “empty” tile:"
+
+    } ,
+  
+    {
+
       "title"    : "How to do depth-ordering?",
       "url"      : "/how-to-do-depth-ordering/",
       "category" : "",

@@ -7,7 +7,9 @@ You can submit your own questions. Answers are not required, but if you do know 
 
 ## Guidelines
 
-To make sure that our questions stay consistent, we've set up some guidelines:
+***If you're only submitting a question, you can skip the guidelines and go straight to the [Contact](## Contact) section.***
+
+To make sure that our questions & answers stay consistent, we've set up some guidelines:
 
 - Question must be one-liner
 - Answer must not exceed 100 words, or 150 at most

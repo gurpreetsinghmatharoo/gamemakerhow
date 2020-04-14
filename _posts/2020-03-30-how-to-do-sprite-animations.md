@@ -1,6 +1,6 @@
 ---
 title: How to do sprite animations?
-categories: Objects, Sprites
+categories: [Objects, Sprites]
 permalink: /how-to-do-sprite-animations/
 tags: [sprite, animation, animating, animations, image, speed, frame, state]
 
