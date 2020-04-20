@@ -2,6 +2,39 @@
   
     {
 
+      "title"    : "How to use surfaces?",
+      "url"      : "/how-to-use-surfaces/",
+      "category" : "",
+      "tags"     : "surface, surfaces, draw, canvas, clip, clipping",
+      "date"     : "2020-04-20 00:00:00 +0530",
+      "excerpt"  : "A Surface is a rectangular canvas where something can be drawn. Everything in that surface will not be drawn to the screen until you draw it yourself."
+
+    } ,
+  
+    {
+
+      "title"    : "How to pause a game?",
+      "url"      : "/how-to-pause-a-game/",
+      "category" : "",
+      "tags"     : "pause, unpause, resume, escape, menu",
+      "date"     : "2020-04-20 00:00:00 +0530",
+      "excerpt"  : "The simplest way to pause a game, is to deactivate all instances, except for the main controller object (which handles pausing &amp;amp; unpausing)."
+
+    } ,
+  
+    {
+
+      "title"    : "How to draw a paused game?",
+      "url"      : "/how-to-draw-paused-game/",
+      "category" : "",
+      "tags"     : "display, draw, pause, paused, snapshot, deactivate, invisible, surface",
+      "date"     : "2020-04-20 00:00:00 +0530",
+      "excerpt"  : "You can pause your game now, but you can’t see your deactivated instances. To make this work, you can make use of Surfaces."
+
+    } ,
+  
+    {
+
       "title"    : "How to clear the asset cache?",
       "url"      : "/how-to-clear-the-asset-cache/",
       "category" : "",
