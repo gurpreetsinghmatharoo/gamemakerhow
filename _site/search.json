@@ -35,6 +35,17 @@
   
     {
 
+      "title"    : "How to create particles?",
+      "url"      : "/how-to-create-particles/",
+      "category" : "",
+      "tags"     : "particles, effects, types",
+      "date"     : "2020-04-20 00:00:00 +0530",
+      "excerpt"  : "To create particles with GML, you need (1) a Particle System, and (2) a Particle Type."
+
+    } ,
+  
+    {
+
       "title"    : "How to clear the asset cache?",
       "url"      : "/how-to-clear-the-asset-cache/",
       "category" : "",
