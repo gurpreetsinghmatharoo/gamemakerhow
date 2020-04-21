@@ -1316,3 +1316,185 @@
   INFO [45af9b52] Running /usr/bin/env echo "Branch master (at d4e94402cc6079c02bc86e50975a77a8b0d1c0a0) deployed as release 20200420085630 by gurpr" >> /var/www/gamemakerhow/revisions.log as matharoo@167.71.80.153
  DEBUG [45af9b52] Command: cd /var/www/gamemakerhow/releases && /usr/bin/env echo "Branch master (at d4e94402cc6079c02bc86e50975a77a8b0d1c0a0) deployed as release 20200420085630 by gurpr" >> /var/www/gamemakerhow/revisions.log
   INFO [45af9b52] Finished in 0.757 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-20 14:57:22 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [27d2bbc1] Running /usr/bin/env mkdir -p /tmp as matharoo@167.71.80.153
+ DEBUG [27d2bbc1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [27d2bbc1] Finished in 3.244 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GameMakerHow-production-gurpr.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GameMakerHow-production-gurpr.sh 100.0%
+  INFO [4e7fca5a] Running /usr/bin/env chmod 700 /tmp/git-ssh-GameMakerHow-production-gurpr.sh as matharoo@167.71.80.153
+ DEBUG [4e7fca5a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GameMakerHow-production-gurpr.sh
+  INFO [4e7fca5a] Finished in 0.758 seconds with exit status 0 (successful).
+  INFO [43ad75c6] Running /usr/bin/env git ls-remote git@github.com:gurpreetsinghmatharoo/gamemakerhow.git HEAD as matharoo@167.71.80.153
+ DEBUG [43ad75c6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git ls-remote git@github.com:gurpreetsinghmatharoo/gamemakerhow.git HEAD )
+ DEBUG [43ad75c6] 	a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a	HEAD
+  INFO [43ad75c6] Finished in 1.250 seconds with exit status 0 (successful).
+  INFO [cdc7c439] Running /usr/bin/env mkdir -p /var/www/gamemakerhow/shared /var/www/gamemakerhow/releases as matharoo@167.71.80.153
+ DEBUG [cdc7c439] Command: /usr/bin/env mkdir -p /var/www/gamemakerhow/shared /var/www/gamemakerhow/releases
+  INFO [cdc7c439] Finished in 0.700 seconds with exit status 0 (successful).
+ DEBUG [f4135388] Running [ -f /var/www/gamemakerhow/current/REVISION ] as matharoo@167.71.80.153
+ DEBUG [f4135388] Command: [ -f /var/www/gamemakerhow/current/REVISION ]
+ DEBUG [f4135388] Finished in 0.754 seconds with exit status 0 (successful).
+ DEBUG [fd389281] Running /usr/bin/env cat /var/www/gamemakerhow/current/REVISION 2>/dev/null as matharoo@167.71.80.153
+ DEBUG [fd389281] Command: /usr/bin/env cat /var/www/gamemakerhow/current/REVISION 2>/dev/null
+ DEBUG [fd389281] 	d4e94402cc6079c02bc86e50975a77a8b0d1c0a0
+ DEBUG [fd389281] Finished in 0.747 seconds with exit status 0 (successful).
+ DEBUG [119075c0] Running [ -f /var/www/gamemakerhow/repo/HEAD ] as matharoo@167.71.80.153
+ DEBUG [119075c0] Command: [ -f /var/www/gamemakerhow/repo/HEAD ]
+ DEBUG [119075c0] Finished in 0.744 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/gamemakerhow/repo
+ DEBUG [e884c62c] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [e884c62c] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [e884c62c] Finished in 0.713 seconds with exit status 0 (successful).
+  INFO [4c02f2c3] Running /usr/bin/env git remote set-url origin git@github.com:gurpreetsinghmatharoo/gamemakerhow.git as matharoo@167.71.80.153
+ DEBUG [4c02f2c3] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git remote set-url origin git@github.com:gurpreetsinghmatharoo/gamemakerhow.git )
+  INFO [4c02f2c3] Finished in 0.746 seconds with exit status 0 (successful).
+  INFO [7563c0c4] Running /usr/bin/env git remote update --prune as matharoo@167.71.80.153
+ DEBUG [7563c0c4] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7563c0c4] 	Fetching origin
+ DEBUG [7563c0c4] 	From github.com:gurpreetsinghmatharoo/gamemakerhow
+   d4e9440..a3a0d17  master     -> master
+  INFO [7563c0c4] Finished in 1.328 seconds with exit status 0 (successful).
+ DEBUG [12f8edc6] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [12f8edc6] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [12f8edc6] Finished in 0.697 seconds with exit status 0 (successful).
+  INFO [cdb63d3b] Running /usr/bin/env mkdir -p /var/www/gamemakerhow/releases/20200420092731 as matharoo@167.71.80.153
+ DEBUG [cdb63d3b] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env mkdir -p /var/www/gamemakerhow/releases/20200420092731 )
+  INFO [cdb63d3b] Finished in 0.756 seconds with exit status 0 (successful).
+  INFO [87f92986] Running /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /var/www/gamemakerhow/releases/20200420092731 as matharoo@167.71.80.153
+ DEBUG [87f92986] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /var/www/gamemakerhow/releases/20200420092731 )
+  INFO [87f92986] Finished in 0.760 seconds with exit status 0 (successful).
+ DEBUG [0109d039] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [0109d039] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [0109d039] Finished in 0.751 seconds with exit status 0 (successful).
+ DEBUG [cd857fb6] Running /usr/bin/env git rev-list --max-count=1 master as matharoo@167.71.80.153
+ DEBUG [cd857fb6] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cd857fb6] 	a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a
+ DEBUG [cd857fb6] Finished in 0.751 seconds with exit status 0 (successful).
+ DEBUG [823bad4c] Running if test ! -d /var/www/gamemakerhow/releases/20200420092731; then echo "Directory does not exist '/var/www/gamemakerhow/releases/20200420092731'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [823bad4c] Command: if test ! -d /var/www/gamemakerhow/releases/20200420092731; then echo "Directory does not exist '/var/www/gamemakerhow/releases/20200420092731'" 1>&2; false; fi
+ DEBUG [823bad4c] Finished in 0.745 seconds with exit status 0 (successful).
+  INFO [3c6b35d1] Running /usr/bin/env echo "a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a" > REVISION as matharoo@167.71.80.153
+ DEBUG [3c6b35d1] Command: cd /var/www/gamemakerhow/releases/20200420092731 && /usr/bin/env echo "a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a" > REVISION
+  INFO [3c6b35d1] Finished in 0.749 seconds with exit status 0 (successful).
+  INFO [85c49469] Running /usr/bin/env ln -s /var/www/gamemakerhow/releases/20200420092731 /var/www/gamemakerhow/releases/current as matharoo@167.71.80.153
+ DEBUG [85c49469] Command: /usr/bin/env ln -s /var/www/gamemakerhow/releases/20200420092731 /var/www/gamemakerhow/releases/current
+  INFO [85c49469] Finished in 0.753 seconds with exit status 0 (successful).
+  INFO [45cd56d7] Running /usr/bin/env mv /var/www/gamemakerhow/releases/current /var/www/gamemakerhow as matharoo@167.71.80.153
+ DEBUG [45cd56d7] Command: /usr/bin/env mv /var/www/gamemakerhow/releases/current /var/www/gamemakerhow
+  INFO [45cd56d7] Finished in 0.741 seconds with exit status 0 (successful).
+ DEBUG [b8421d1f] Running /usr/bin/env ls -x /var/www/gamemakerhow/releases as matharoo@167.71.80.153
+ DEBUG [b8421d1f] Command: /usr/bin/env ls -x /var/www/gamemakerhow/releases
+ DEBUG [b8421d1f] 	20200406102341	20200406113847	20200406114041	20200414072105	20200420085630
+20200420092731
+ DEBUG [b8421d1f] Finished in 0.749 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 167.71.80.153
+ DEBUG [16fbe298] Running [ -d /var/www/gamemakerhow/current ] as matharoo@167.71.80.153
+ DEBUG [16fbe298] Command: [ -d /var/www/gamemakerhow/current ]
+ DEBUG [16fbe298] Finished in 0.747 seconds with exit status 0 (successful).
+ DEBUG [948b39a0] Running /usr/bin/env readlink /var/www/gamemakerhow/current as matharoo@167.71.80.153
+ DEBUG [948b39a0] Command: /usr/bin/env readlink /var/www/gamemakerhow/current
+ DEBUG [948b39a0] 	/var/www/gamemakerhow/releases/20200420092731
+ DEBUG [948b39a0] Finished in 0.748 seconds with exit status 0 (successful).
+  INFO [4d8740b2] Running /usr/bin/env rm -rf /var/www/gamemakerhow/releases/20200406102341 as matharoo@167.71.80.153
+ DEBUG [4d8740b2] Command: /usr/bin/env rm -rf /var/www/gamemakerhow/releases/20200406102341
+  INFO [4d8740b2] Finished in 0.754 seconds with exit status 0 (successful).
+ DEBUG [34f2bb28] Running if test ! -d /var/www/gamemakerhow/releases; then echo "Directory does not exist '/var/www/gamemakerhow/releases'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [34f2bb28] Command: if test ! -d /var/www/gamemakerhow/releases; then echo "Directory does not exist '/var/www/gamemakerhow/releases'" 1>&2; false; fi
+ DEBUG [34f2bb28] Finished in 0.739 seconds with exit status 0 (successful).
+  INFO [979fcf0b] Running /usr/bin/env echo "Branch master (at a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a) deployed as release 20200420092731 by gurpr" >> /var/www/gamemakerhow/revisions.log as matharoo@167.71.80.153
+ DEBUG [979fcf0b] Command: cd /var/www/gamemakerhow/releases && /usr/bin/env echo "Branch master (at a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a) deployed as release 20200420092731 by gurpr" >> /var/www/gamemakerhow/revisions.log
+  INFO [979fcf0b] Finished in 0.755 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-21 13:15:34 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5a0e1587] Running /usr/bin/env mkdir -p /tmp as matharoo@167.71.80.153
+ DEBUG [5a0e1587] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5a0e1587] Finished in 3.838 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-GameMakerHow-production-gurpr.sh 0.0%
+  INFO Uploading /tmp/git-ssh-GameMakerHow-production-gurpr.sh 100.0%
+  INFO [5f3e9114] Running /usr/bin/env chmod 700 /tmp/git-ssh-GameMakerHow-production-gurpr.sh as matharoo@167.71.80.153
+ DEBUG [5f3e9114] Command: /usr/bin/env chmod 700 /tmp/git-ssh-GameMakerHow-production-gurpr.sh
+  INFO [5f3e9114] Finished in 0.808 seconds with exit status 0 (successful).
+  INFO [55be2966] Running /usr/bin/env git ls-remote git@github.com:gurpreetsinghmatharoo/gamemakerhow.git HEAD as matharoo@167.71.80.153
+ DEBUG [55be2966] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git ls-remote git@github.com:gurpreetsinghmatharoo/gamemakerhow.git HEAD )
+ DEBUG [55be2966] 	b594733c812b335dd172854a426720ba13439461	HEAD
+  INFO [55be2966] Finished in 1.387 seconds with exit status 0 (successful).
+  INFO [a560a42e] Running /usr/bin/env mkdir -p /var/www/gamemakerhow/shared /var/www/gamemakerhow/releases as matharoo@167.71.80.153
+ DEBUG [a560a42e] Command: /usr/bin/env mkdir -p /var/www/gamemakerhow/shared /var/www/gamemakerhow/releases
+  INFO [a560a42e] Finished in 0.759 seconds with exit status 0 (successful).
+ DEBUG [b9ed04f9] Running [ -f /var/www/gamemakerhow/current/REVISION ] as matharoo@167.71.80.153
+ DEBUG [b9ed04f9] Command: [ -f /var/www/gamemakerhow/current/REVISION ]
+ DEBUG [b9ed04f9] Finished in 0.797 seconds with exit status 0 (successful).
+ DEBUG [79a03a26] Running /usr/bin/env cat /var/www/gamemakerhow/current/REVISION 2>/dev/null as matharoo@167.71.80.153
+ DEBUG [79a03a26] Command: /usr/bin/env cat /var/www/gamemakerhow/current/REVISION 2>/dev/null
+ DEBUG [79a03a26] 	a3a0d1757a9882d147bdb3d7382bd0db9ef46a4a
+ DEBUG [79a03a26] Finished in 0.812 seconds with exit status 0 (successful).
+ DEBUG [42ac320b] Running [ -f /var/www/gamemakerhow/repo/HEAD ] as matharoo@167.71.80.153
+ DEBUG [42ac320b] Command: [ -f /var/www/gamemakerhow/repo/HEAD ]
+ DEBUG [42ac320b] Finished in 0.799 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/gamemakerhow/repo
+ DEBUG [b46bc68d] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [b46bc68d] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [b46bc68d] Finished in 0.805 seconds with exit status 0 (successful).
+  INFO [9532e3e9] Running /usr/bin/env git remote set-url origin git@github.com:gurpreetsinghmatharoo/gamemakerhow.git as matharoo@167.71.80.153
+ DEBUG [9532e3e9] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git remote set-url origin git@github.com:gurpreetsinghmatharoo/gamemakerhow.git )
+  INFO [9532e3e9] Finished in 0.806 seconds with exit status 0 (successful).
+  INFO [5c4a27c5] Running /usr/bin/env git remote update --prune as matharoo@167.71.80.153
+ DEBUG [5c4a27c5] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [5c4a27c5] 	Fetching origin
+ DEBUG [5c4a27c5] 	From github.com:gurpreetsinghmatharoo/gamemakerhow
+   a3a0d17..b594733  master     -> master
+  INFO [5c4a27c5] Finished in 1.451 seconds with exit status 0 (successful).
+ DEBUG [8d59f691] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [8d59f691] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [8d59f691] Finished in 0.763 seconds with exit status 0 (successful).
+  INFO [e047eb14] Running /usr/bin/env mkdir -p /var/www/gamemakerhow/releases/20200421074545 as matharoo@167.71.80.153
+ DEBUG [e047eb14] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env mkdir -p /var/www/gamemakerhow/releases/20200421074545 )
+  INFO [e047eb14] Finished in 0.802 seconds with exit status 0 (successful).
+  INFO [28bf2b81] Running /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /var/www/gamemakerhow/releases/20200421074545 as matharoo@167.71.80.153
+ DEBUG [28bf2b81] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git archive master _site | /usr/bin/env tar -x --strip-components 1 -f - -C /var/www/gamemakerhow/releases/20200421074545 )
+  INFO [28bf2b81] Finished in 0.835 seconds with exit status 0 (successful).
+ DEBUG [6575c645] Running if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [6575c645] Command: if test ! -d /var/www/gamemakerhow/repo; then echo "Directory does not exist '/var/www/gamemakerhow/repo'" 1>&2; false; fi
+ DEBUG [6575c645] Finished in 0.807 seconds with exit status 0 (successful).
+ DEBUG [269d2c07] Running /usr/bin/env git rev-list --max-count=1 master as matharoo@167.71.80.153
+ DEBUG [269d2c07] Command: cd /var/www/gamemakerhow/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-GameMakerHow-production-gurpr.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [269d2c07] 	b594733c812b335dd172854a426720ba13439461
+ DEBUG [269d2c07] Finished in 0.808 seconds with exit status 0 (successful).
+ DEBUG [ee71ca7b] Running if test ! -d /var/www/gamemakerhow/releases/20200421074545; then echo "Directory does not exist '/var/www/gamemakerhow/releases/20200421074545'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [ee71ca7b] Command: if test ! -d /var/www/gamemakerhow/releases/20200421074545; then echo "Directory does not exist '/var/www/gamemakerhow/releases/20200421074545'" 1>&2; false; fi
+ DEBUG [ee71ca7b] Finished in 0.801 seconds with exit status 0 (successful).
+  INFO [3863b370] Running /usr/bin/env echo "b594733c812b335dd172854a426720ba13439461" > REVISION as matharoo@167.71.80.153
+ DEBUG [3863b370] Command: cd /var/www/gamemakerhow/releases/20200421074545 && /usr/bin/env echo "b594733c812b335dd172854a426720ba13439461" > REVISION
+  INFO [3863b370] Finished in 0.796 seconds with exit status 0 (successful).
+  INFO [718b81d6] Running /usr/bin/env ln -s /var/www/gamemakerhow/releases/20200421074545 /var/www/gamemakerhow/releases/current as matharoo@167.71.80.153
+ DEBUG [718b81d6] Command: /usr/bin/env ln -s /var/www/gamemakerhow/releases/20200421074545 /var/www/gamemakerhow/releases/current
+  INFO [718b81d6] Finished in 0.806 seconds with exit status 0 (successful).
+  INFO [eb99dbfb] Running /usr/bin/env mv /var/www/gamemakerhow/releases/current /var/www/gamemakerhow as matharoo@167.71.80.153
+ DEBUG [eb99dbfb] Command: /usr/bin/env mv /var/www/gamemakerhow/releases/current /var/www/gamemakerhow
+  INFO [eb99dbfb] Finished in 0.802 seconds with exit status 0 (successful).
+ DEBUG [7cec8205] Running /usr/bin/env ls -x /var/www/gamemakerhow/releases as matharoo@167.71.80.153
+ DEBUG [7cec8205] Command: /usr/bin/env ls -x /var/www/gamemakerhow/releases
+ DEBUG [7cec8205] 	20200406113847	20200406114041	20200414072105	20200420085630	20200420092731
+20200421074545
+ DEBUG [7cec8205] Finished in 0.801 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 167.71.80.153
+ DEBUG [30f57467] Running [ -d /var/www/gamemakerhow/current ] as matharoo@167.71.80.153
+ DEBUG [30f57467] Command: [ -d /var/www/gamemakerhow/current ]
+ DEBUG [30f57467] Finished in 0.803 seconds with exit status 0 (successful).
+ DEBUG [519f7192] Running /usr/bin/env readlink /var/www/gamemakerhow/current as matharoo@167.71.80.153
+ DEBUG [519f7192] Command: /usr/bin/env readlink /var/www/gamemakerhow/current
+ DEBUG [519f7192] 	/var/www/gamemakerhow/releases/20200421074545
+ DEBUG [519f7192] Finished in 0.801 seconds with exit status 0 (successful).
+  INFO [0ac9f01d] Running /usr/bin/env rm -rf /var/www/gamemakerhow/releases/20200406113847 as matharoo@167.71.80.153
+ DEBUG [0ac9f01d] Command: /usr/bin/env rm -rf /var/www/gamemakerhow/releases/20200406113847
+  INFO [0ac9f01d] Finished in 0.815 seconds with exit status 0 (successful).
+ DEBUG [31be2072] Running if test ! -d /var/www/gamemakerhow/releases; then echo "Directory does not exist '/var/www/gamemakerhow/releases'" 1>&2; false; fi as matharoo@167.71.80.153
+ DEBUG [31be2072] Command: if test ! -d /var/www/gamemakerhow/releases; then echo "Directory does not exist '/var/www/gamemakerhow/releases'" 1>&2; false; fi
+ DEBUG [31be2072] Finished in 0.803 seconds with exit status 0 (successful).
+  INFO [8de43a5b] Running /usr/bin/env echo "Branch master (at b594733c812b335dd172854a426720ba13439461) deployed as release 20200421074545 by gurpr" >> /var/www/gamemakerhow/revisions.log as matharoo@167.71.80.153
+ DEBUG [8de43a5b] Command: cd /var/www/gamemakerhow/releases && /usr/bin/env echo "Branch master (at b594733c812b335dd172854a426720ba13439461) deployed as release 20200421074545 by gurpr" >> /var/www/gamemakerhow/revisions.log
+  INFO [8de43a5b] Finished in 0.798 seconds with exit status 0 (successful).
