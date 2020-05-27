@@ -84,6 +84,8 @@ pre { color: #adadad; }
 #content h1 a { font-size: 1.5rem; padding: 8px; background-color: #333333; border-radius: 8px; transition: background-color 0.3s; color: #16cf7f; }
 #content h1 a:hover { background-color: #38463f; }
 
+#content-bigger { color: white; margin-top: 0.5rem; font-size: 1.5rem; }
+
 .similar-list { margin-top: 1.5rem; padding: 1rem; background-color: #2b343b; list-style-type: none; border-radius: 10px; }
 .similar-list .similar-title { color: white; font-size: 1.5rem; margin-bottom: 1rem; }
 .similar-list .similar-item { font-size: 1.2rem; margin-top: 1rem; }
@@ -95,6 +97,8 @@ pre { color: #adadad; }
 .highlight pre { border: 1px solid #1a1a1a; border-radius: .25rem; background-color: #1a1a1a; padding: 0.75rem; margin-bottom: 1rem; white-space: pre-wrap; }
 
 .highlight pre { border-radius: 10px; }
+
+.googledoc_embed { margin-top: 32px; }
 
 .highlight .c { color: #3b9137; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }

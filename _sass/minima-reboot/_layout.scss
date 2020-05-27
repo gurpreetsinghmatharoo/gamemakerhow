@@ -253,6 +253,12 @@ pre {
   }
 }
 
+#content-bigger {
+  color: $text-color-content;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
 .similar-list {
   margin-top: 1.5rem;
   padding: 1rem;
@@ -293,4 +299,8 @@ pre {
 
 .highlight pre {
   border-radius: $div-box-radius;
+}
+
+.googledoc_embed {
+  margin-top: 32px;
 }

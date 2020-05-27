@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article>
+  <header class="pt-4 pb-3">
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  <div id="content-bigger">
+  This is the script for my video tutorial. You can read it if you prefer text-based tutorials.
+  <br>
+  If you want to watch the video, <a href="{{ page.video }}">it's on YouTube.</a>
+  </div>
+
+  <embed class="googledoc_embed" src="{{ page.doc }}" width="100%" style="height: -webkit-fill-available">
+
+</article>
