@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Example: Rotating a Sequence Item",
+      "url"      : "/examples/rotating-a-sequence-item/",
+      "category" : "",
+      "tags"     : "rotation, sequence, matrix",
+      "date"     : "2020-05-30 00:00:00 +0530",
+      "excerpt"  : "You can create a Sequence for a sword animation, and play it in-game. But, the animating sword cannot be easily rotated with the player."
+
+    } ,
+  
+    {
+
       "title"    : "(VIDEO SCRIPT) Animation Curves in GameMaker Studio 2.3",
       "url"      : "/animation-curves-in-gms-2.3/",
       "category" : "",
